@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ReduxCoreX — GTA V RP</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=20260914-gta5rp-orange">
+</head>
+<body>
+<div class="bg"></div><div class="grain"></div><div class="ambient ambient-a"></div><div class="ambient ambient-b"></div>
+<aside class="site-header">
+  <div class="topbar">
+    <a class="brand" data-open="home" href="#home"><span class="brand-mark">R</span><span><b>ReduxCoreX</b><em>PROJECT</em></span></a>
+    <nav class="top-nav" aria-label="Навигация">
+      <button class="top-tab active" data-open="home" title="Home"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 10.8 12 3l9 7.8v9.2a1 1 0 0 1-1 1h-5.2v-6h-5.6v6H4a1 1 0 0 1-1-1z"/></svg></i><span>Home</span></button>
+      <button class="top-tab" data-open="redux" title="Redux"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 15 7-7 3 3-7 7H4zM13.5 7.5l2-2 3 3-2 2zM18 3l3 3-1.4 1.4-3-3z"/></svg></i><span>Redux</span></button>
+      <button class="top-tab" data-open="guns" title="Gun Pack"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 8h11l2 2h5v3h-7l-2-2H8l-2 4H3l2-5zM14 14h7v3h-6z"/></svg></i><span>Gun Pack</span></button>
+      <button class="top-tab" data-open="armor" title="Body Armor"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 2 8 3v6c0 5.3-3.2 9.2-8 11-4.8-1.8-8-5.7-8-11V5zM12 6l-4 1.5v3.3c0 3.4 1.6 6 4 7.4 2.4-1.4 4-4 4-7.4V7.5z"/></svg></i><span>Body Armor</span></button>
+      <div class="nav-divider"></div>
+      <button class="top-tab" data-open="users" title="People"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 19c.5-3.2 2.5-5 6-5s5.5 1.8 6 5M14 15c2.8-.8 5.5.5 6.5 4"/></svg></i><span>People</span></button>
+      <button class="top-tab" data-open="admins" title="Admins"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 3v5c0 4.7-3 8.4-8 10-5-1.6-8-5.3-8-10V6zM12 7v9M8.5 10.5h7"/></svg></i><span>Admins</span></button>
+      <button class="top-tab" data-open="reports" title="Reports"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h10l4 4v14H5zM14 3v5h5M8 12h8M8 16h6"/></svg></i><span>Reports</span></button>
+      <button class="top-tab" data-open="settings" title="Settings"><i class="nav-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 3h5l.8 2.3 2 .9 2.2-1 3.1 3.1-1 2.2.9 2L21 13.5v5l-2.3.8-.9 2-2.2-1-2 .9L13.5 23h-5l-.8-2.3-2-.9-2.2 1-3.1-3.1 1-2.2-.9-2L3 13.5v-5l2.3-.8.9-2 2.2 1zM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6z"/></svg></i><span>Settings</span></button>
+    </nav>
+    <button class="account-chip" id="accountChip" data-open="profile" type="button"><span class="status-dot"></span><span class="account-meta"><strong id="accountText">ВОЙТИ</strong></span><img id="topAvatar" alt="" hidden><span class="account-arrow">›</span></button>
+  </div>
+</aside>
+<main class="shell">
+<section id="home" class="page active">
+  <div class="hero-new">
+    <div class="hero-copy hero-copy-minimal">
+      <span class="eyebrow"><span></span>REDUXCOREX</span>
+      <h1>GTA V RP<br><strong>PROJECT</strong></h1>
+      <p class="hero-account-line">Добро пожаловать, <strong id="homeWelcomeName">участник</strong></p>
+    </div>
+  </div>
+  <div class="home-main-grid">
+    <div class="home-main-col">
+      <div class="section-kicker"><span>FEATURED</span><b>КОЛЛЕКЦИЯ ПРОЕКТА</b></div>
+      <div class="feature-grid">
+        <button class="feature-card feature-red" data-open="redux"><span class="feature-number">01</span><div><small>GRAPHICS / VISUALS</small><h2>REDUX</h2><p>Визуальная сборка для GTA V RP.</p></div><b class="card-arrow">↗</b></button>
+        <button class="feature-card feature-gun" data-open="guns"><span class="feature-number">02</span><div><small>WEAPONS / PACK</small><h2>GUN PACK</h2><p>Новая модельная коллекция оружия.</p></div><b class="card-arrow">↗</b></button>
+        <button class="feature-card feature-armor" data-open="armor"><span class="feature-number">03</span><div><small>EQUIPMENT / RP</small><h2>BODY ARMOR</h2><p>Броня и экипировка для RP.</p></div><b class="card-arrow">↗</b></button>
+      </div>
+      <section class="project-update">
+    <div class="project-update-head"><div><span>PROJECT CHANGELOG</span><h2>Обновление проекта</h2></div><b>RCX / 2026</b></div>
+    <div class="project-update-grid">
+      <div class="change-column added"><strong>ЧТО ДОБАВЛЕНО</strong><p>Новый полный интерфейс ReduxCoreX.</p><p>Навигация перенесена в левую панель.</p><p>Список участников онлайн и поиск.</p><p>Раздел «Семья» с ссылкой на Discord.</p><p>Кнопка «Скачать проект» в Home.</p></div>
+      <div class="change-column removed"><strong>ЧТО УБРАНО</strong><p>Надпись GTA5RP · RMRP · MAJESTIC сверху.</p><p>PROJECT STATUS / ONLINE.</p><p>Старая верхняя навигация.</p></div>
+    </div>
+  </section>
+      <div class="home-bottom-actions">
+        <a class="download project-download" href="downloads/ReduxCoreX_PROJECT.zip" download>СКАЧАТЬ ПРОЕКТ <b>↓</b></a>
+        <a class="download secondary discord-family" href="https://discord.gg/MwRyhaSA2g" target="_blank" rel="noopener">НАША СЕМЬЯ В DISCORD <b>↗</b></a>
+      </div>
+    </div>
+    <aside class="home-side">
+      <div class="home-side-card online-home-card">
+        <div class="home-side-head"><div><span>COMMUNITY</span><h3>Сейчас на сайте</h3></div><b id="homeOnlineCount">0</b></div>
+        <div id="homeOnlineResults" class="home-online-results"><div class="empty-history">Подключаем список...</div></div>
+        <button class="side-search" data-open="users" type="button">ПОСМОТРЕТЬ ВСЕХ <b>→</b></button>
+      </div>
+      <div class="home-side-card family-card">
+        <span>COMMUNITY / DISCORD</span><h3>Наша семья</h3><p>Присоединяйся к нашему Discord и следи за обновлениями проекта.</p>
+        <a class="download secondary" href="https://discord.gg/MwRyhaSA2g" target="_blank" rel="noopener">ПЕРЕЙТИ В DISCORD <b>↗</b></a>
+      </div>
+    </aside>
+  </div>
+</section>
+<section id="redux" class="page content-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>02 / DOWNLOAD CENTER</span><h2>REDUX</h2><p>Основная визуальная сборка ReduxCoreX.</p></div><b>RCX<br>02</b></div><div class="download-showcase"><article class="product-card"><div class="product-art redux-art"><span>RCX</span><b>REDUX</b></div><div class="product-info"><div class="tag-row"><span>VISUAL PACK</span><span>GTA V</span></div><h3>GRAY REDUX</h3><p>Основная сборка Redux для GTA V RP. Авторизация нужна для доступа к загрузке.</p><div class="product-bottom"><small>BUILD / 2026</small><a class="download auth-download" data-category="REDUX" data-item="GRAY REDUX" href="https://drive.google.com/uc?export=download&id=1hv9_LMvos60YdNgVG1K6JPAXq_DKl7XH" target="_blank" rel="noopener">СКАЧАТЬ <b>↓</b></a></div></div></article></div></section>
+<section id="guns" class="page content-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>03 / DOWNLOAD CENTER</span><h2>GUN PACK</h2><p>Коллекция оружия для RP-сборок.</p></div><b>RCX<br>03</b></div><div class="download-showcase"><article class="product-card"><div class="product-art gun-art"><span>WEAPON</span><b>GITO V5</b></div><div class="product-info"><div class="tag-row"><span>GUN PACK</span><span>ZIP ARCHIVE</span></div><h3>GITO V5</h3><p>Актуальный архив Gun Pack с файлами мода.</p><div class="product-bottom"><small>ARCHIVE / ZIP</small><a class="download auth-download" data-category="GUN PACK" data-item="GITO V5" href="downloads/GITO_V5.zip" download>СКАЧАТЬ ZIP <b>↓</b></a></div></div></article></div></section>
+<section id="armor" class="page content-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>04 / DOWNLOAD CENTER</span><h2>BODY ARMOR</h2><p>Экипировка и бронежилеты для RP.</p></div><b>RCX<br>04</b></div><div class="download-showcase"><article class="product-card"><div class="product-art armor-art"><span>TACTICAL</span><b>ARMOR</b></div><div class="product-info"><div class="tag-row"><span>EQUIPMENT</span><span>SOON</span></div><h3>BODY ARMOR</h3><p>Новая коллекция брони и экипировки готовится к релизу.</p><div class="product-bottom"><small>STATUS / SOON</small><button class="download disabled">СКОРО</button></div></div></article></div></section>
+<section id="profile" class="page content-page profile-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>05 / ACCOUNT CENTER</span><h2>PROFILE</h2><p>Аккаунт, аватар и история загрузок.</p></div><b>RCX<br>05</b></div>
+  <div id="loggedOut" class="profile-panel auth-panel"><div class="login-mark">R</div><div><span class="mini-label">PERSONAL ACCESS</span><h3>Войди в ReduxCoreX</h3><p>После входа доступны загрузки и персональная история.</p><div class="auth-actions"><button class="download" id="openLogin">ВОЙТИ</button><button class="download secondary" id="openRegister">СОЗДАТЬ АККАУНТ</button></div></div></div>
+  <div id="loggedIn" class="profile-panel" hidden><div class="profile-main"><div class="avatar-wrap"><img id="profileAvatar" class="profile-avatar" alt="Аватар"><label class="avatar-upload">ИЗМЕНИТЬ АВАТАР<input id="avatarInput" type="file" accept="image/*"></label></div><div class="profile-info"><span class="mini-label">ACCOUNT</span><div class="profile-name-line"><h3 id="profileName">User</h3><span class="admin-badge" id="adminBadge" hidden>ADMIN</span></div><div class="account-details"><div class="detail-row"><span class="detail-label">ИМЯ</span><strong id="profileDisplayName">User</strong></div><div class="detail-row private-row"><span class="detail-label">ЮЗЕРНЕЙМ</span><strong id="profileUsername" class="private-value">••••••••</strong><button type="button" class="email-toggle" id="usernameToggle">ПОКАЗАТЬ</button></div><div class="detail-row private-row"><span class="detail-label">EMAIL</span><strong id="profileEmail" class="email-blurred"></strong><button type="button" class="email-toggle" id="emailToggle">ПОКАЗАТЬ</button></div></div><div class="nickname-edit"><input id="nicknameInput" type="text" maxlength="40" placeholder="Новое имя"><button class="download secondary small-btn" id="saveNickname" type="button">СОХРАНИТЬ</button></div><div id="nicknameMessage" class="nickname-message"></div><button class="download secondary small-btn" id="signOut">ВЫЙТИ ИЗ АККАУНТА</button></div></div><div class="history-head"><span>DOWNLOAD HISTORY</span><strong>ИСТОРИЯ ЗАГРУЗОК</strong><p>Твои скачивания сохраняются автоматически.</p></div><div id="history" class="history-list"><div class="download-categories"></div></div></div>
+</section>
+<section id="users" class="page content-page users-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>06 / COMMUNITY</span><h2>PEOPLE</h2><p>Участники, которые прямо сейчас находятся на сайте.</p></div><b>LIVE<br>06</b></div><div class="community-toolbar"><div class="search-box"><span>⌕</span><input id="userSearch" type="text" maxlength="40" placeholder="Поиск по юзернейму или имени"></div><button class="download small-btn" id="userSearchBtn" type="button">ИСКАТЬ</button></div><div class="online-list-head"><span>LIVE PARTICIPANTS</span><strong id="onlineUsersCount">0 ОНЛАЙН</strong></div><div id="userResults" class="user-results"><div class="empty-history">Подключаем список участников...</div></div></section>
+<section id="admins" class="page content-page admins-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>07 / STAFF</span><h2>ADMINS</h2><p>Команда, которая следит за проектом.</p></div><b>STAFF<br>07</b></div><div id="adminsList" class="user-results"><div class="empty-history">Загрузка администраторов...</div></div></section>
+<section id="settings" class="page content-page settings-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>09 / SYSTEM</span><h2>SETTINGS</h2><p>Настройки интерфейса ReduxCoreX.</p></div><b>RCX<br>09</b></div><div class="settings-grid"><div class="settings-card"><span>ИНТЕРФЕЙС</span><h3>Внешний вид</h3><label class="setting-row"><div><strong>Анимации</strong><small>Плавные переходы между вкладками</small></div><input id="settingAnimations" type="checkbox" checked><i></i></label><label class="setting-row"><div><strong>Затемнение фона</strong><small>Более читаемые панели поверх изображения</small></div><input id="settingDim" type="checkbox" checked><i></i></label></div><div class="settings-card"><span>АККАУНТ</span><h3>Быстрые действия</h3><button class="download secondary" data-open="profile">ОТКРЫТЬ ПРОФИЛЬ <b>→</b></button><button class="download secondary" data-open="reports">ОТКРЫТЬ REPORTS <b>→</b></button></div></div></section>
+<section id="reports" class="page content-page reports-page"><button class="back" data-open="home">← НАЗАД</button><div class="page-title"><div><span>08 / SUPPORT CENTER</span><h2>REPORTS</h2><p>Сообщи об ошибке или проблеме администрации.</p></div><b>HELP<br>08</b></div><div id="reportGuest" class="profile-panel auth-panel" hidden><div class="login-mark">?</div><div><span class="mini-label">AUTH REQUIRED</span><h3>Нужен вход</h3><p>Войди в аккаунт, чтобы отправить обращение.</p><div class="auth-actions"><button class="download" id="reportLogin">ВОЙТИ</button></div></div></div><div id="reportComposer" class="profile-panel report-composer" hidden><label class="report-label"><span>ТЕКСТ ОБРАЩЕНИЯ</span><textarea id="reportText" maxlength="2000" placeholder="Опиши баг или проблему подробно..."></textarea></label><button class="download" id="sendReport" type="button">ОТПРАВИТЬ ОБРАЩЕНИЕ <b>→</b></button><div id="reportMessage" class="nickname-message"></div></div><div class="reports-head"><span>SUPPORT CENTER</span><strong id="reportsTitle">МОИ ОБРАЩЕНИЯ</strong></div><div id="reportsList" class="reports-list"><div class="empty-history">Загрузка...</div></div></section>
+</main>
+<div class="modal" id="userProfileModal" aria-hidden="true"><div class="modal-box user-profile-box"><button class="modal-close" id="closeUserProfile">×</button><div class="modal-kicker">PUBLIC PROFILE</div><div class="public-profile-main"><img id="publicProfileAvatar" class="profile-avatar" alt="Аватар"><div><div class="public-profile-name-line"><h2 id="publicProfileName">User</h2><span class="admin-badge" id="publicAdminBadge" hidden>ADMIN</span></div><p id="publicProfileUsername" class="public-username"></p><p id="publicProfileJoined" class="public-joined"></p></div></div><div id="publicAdminActions" class="public-admin-actions" hidden><button class="download secondary small-btn" id="toggleUserAdmin" type="button">ВЫДАТЬ ADMIN</button><span id="adminActionStatus" class="nickname-message"></span></div></div></div>
+<div class="modal" id="reportChatModal" aria-hidden="true"><div class="modal-box report-chat-box"><button class="modal-close" id="closeReportChat">×</button><div class="modal-kicker">SUPPORT CHAT</div><h2>ЧАТ ПО ОБРАЩЕНИЮ</h2><p id="chatReportInfo" class="chat-report-info"></p><div id="chatMessages" class="chat-messages"><div class="empty-history">Загрузка...</div></div><div class="chat-compose"><textarea id="chatInput" maxlength="2000" placeholder="Напиши сообщение..."></textarea><button class="download" id="sendChatMessage" type="button">ОТПРАВИТЬ</button><div id="chatMessageStatus" class="nickname-message"></div></div></div></div>
+<div class="modal" id="authModal" aria-hidden="true"><div class="modal-box auth-modal"><button class="modal-close" id="closeAuth">×</button><div class="modal-kicker">REDUXCOREX ACCESS</div><h2 id="authTitle">ВХОД</h2><p id="authHint">Войди по юзернейму и паролю.</p><form id="authForm"><label id="emailLabel">EMAIL<input id="email" type="email" autocomplete="email"></label><label id="nameLabel" hidden>ИМЯ<input id="name" type="text" autocomplete="name"></label><label>ЮЗЕРНЕЙМ<input id="username" type="text" required autocomplete="username"></label><label>ПАРОЛЬ<input id="password" type="password" required minlength="6" autocomplete="current-password"></label><button class="download" id="authSubmit" type="submit">ВОЙТИ</button></form><button class="switch-auth" id="switchAuth">Нет аккаунта? Регистрация</button><div id="authMessage" class="auth-message"></div></div></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="config.js"></script><script src="script.js?v=20260914-gta5rp-orange"></script>
+</body></html>
